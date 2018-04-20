@@ -1,0 +1,58 @@
+{
+    "[csharp]": {
+        
+    },
+    "editor.formatOnSave": false,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": true,
+    "editor.rulers": [
+        120,
+        200
+    ],
+    "editor.trimAutoWhitespace": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.nyc_output": true,
+        "**/.vscode": false,
+        "**/coverage": false,
+        "**/node_modules": false,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map": true,
+        "webpack-assets.json": true
+    },
+    "files.trimTrailingWhitespace": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "javascript.validate.enable": false,
+    "prettier.eslintIntegration": true,
+    "search.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.happypack": true,
+        "**/.nyc_output": true,
+        "**/.sass-cache": true,
+        "**/.tscache": true,
+        "**/.vscode": true,
+        "**/bower_components": true,
+        "**/build": true,
+        "**/coverage": true,
+        "**/dist": true,
+        "**/jstemp": true,
+        "**/node_modules": true,
+        "**/typings": true,
+        "webpack-assets.json": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.projectDetection.autoReload": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vscode-icons"
+}
